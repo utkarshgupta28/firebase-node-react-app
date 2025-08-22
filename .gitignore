@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Backend
+/backend/node_modules
+/backend/serviceAccountKey.json
+/backend/.env
+
+# Firebase / GCP keys (NEVER commit these)
+*.key.json
+*.pem
